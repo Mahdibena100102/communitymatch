@@ -1,0 +1,14 @@
+.pageWrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formWrapper {
+    width: fit-content;
+    background-color: var(--module-background);
+    padding: 50px 60px;
+    border-radius: 2%;
+    box-shadow: 0 0 10px #535353;
+}

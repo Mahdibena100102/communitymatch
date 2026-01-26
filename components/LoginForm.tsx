@@ -10,7 +10,8 @@ const LoginForm = () => {
 
     function handleSumbit(e:React.FormEvent){
         e.preventDefault()
-        router.push("/dashboard")
+        // router.push("/dashboard")
+        
     }
   return (
     <form onSubmit={handleSumbit} style={{display: 'grid', gap: 12}}>

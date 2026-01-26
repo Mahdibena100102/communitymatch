@@ -1,0 +1,40 @@
+.btnContainer {
+    padding-top: 10;    
+    font-size: small;
+}
+
+.pageWrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginPage {
+    display: flex;
+    width: 40%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #535353;
+    overflow: hidden;    
+}
+
+.textSegment {
+    background-color: var(--background-colour-grey);
+    width: 50%;
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.loginFormContainer {
+    background-color: var(--module-background);
+    width: 50%;
+    padding: 5rem 2rem;}
+
+.loginFormHeader {
+    font-size: medium;
+    font-weight: 500;
+}

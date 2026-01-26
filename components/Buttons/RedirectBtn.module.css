@@ -1,0 +1,10 @@
+.button {
+    background-color: var(--background-colour-grey);
+    width: 100%;
+    padding: 10px;
+    border: 0px;
+}
+
+.left {
+    text-align: left;
+}

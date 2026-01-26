@@ -1,0 +1,30 @@
+.NavBar {
+    display: flex;
+    gap: 12px;
+    padding: 12px
+}
+
+.sideBarHeading {
+    color: black;
+    font-weight: 100;
+    font-size: medium;
+    margin-bottom: 40px;
+    margin-top: 2;
+}
+
+.sideBar {
+    width: 240px;
+    height: 100vh;
+    background: var(--module-background);
+    color: white;
+    padding: 15px;
+    flex-shrink: 0;
+    box-shadow: 0 0 10px #535353;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+

@@ -1,0 +1,19 @@
+.btnContainer {
+    width: 150px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    
+}
+
+.formRow {
+    display: flex;
+    gap: 4rem;
+    width: 100%;
+}

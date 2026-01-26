@@ -1,0 +1,22 @@
+.field {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.field[type="date"],
+select.field {
+  width: 210;
+}
+.inputLayout {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
