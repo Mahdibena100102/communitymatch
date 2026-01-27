@@ -6,9 +6,22 @@
 }
 
 .formWrapper {
-    width: fit-content;
+    width: clamp(150px, 95%, 420px);
     background-color: var(--module-background);
+    margin: clamp(10px, 5%, 30px);
     padding: 50px 60px;
     border-radius: 2%;
     box-shadow: 0 0 10px #535353;
+}
+
+
+@media (min-width: 630px) {
+    .formWrapper {
+        width: clamp(450px, 90%, 800px);
+        background-color: var(--module-background);
+        margin: clamp(10px, 5%, 30px);
+        padding: 50px 60px;
+        border-radius: 2%;
+        box-shadow: 0 0 10px #535353;
+    }
 }

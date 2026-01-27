@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --background-colour-cream: #F1EAD7;
   --background-colour-grey: #D9D9D9;
@@ -15,4 +19,5 @@ html,body {
 body {
   background-color: var(--background-colour-cream);
   font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
 }

@@ -11,7 +11,7 @@ const LoginPage = () => {
       <div className={styles.loginPage}>
         <div className={styles.textSegment}>
           <h1>Community Match</h1>
-          <p>The halla way to find marriage within your community.</p>
+          <p>The halal way to find marriage within your community.</p>
         </div>
         <div className={styles.loginFormContainer}>
           <h3 className={styles.loginFormHeader}>Welcome Back</h3>
