@@ -1,0 +1,54 @@
+.formWrapper {
+    margin-top: 30;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.formHeader{
+    display: flex;
+    width: 50%;
+    align-items: end ;
+}
+
+.formHeader h2 {
+    margin: 0;
+}
+
+.sectionHeader{
+    margin: 0 0 20 0;
+}
+
+.guardianWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    width: 50%;
+    background-color: var(--module-background);
+    padding: 30 60;
+}
+
+.guardianInputs{
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+}
+
+
+.personalWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    width: 50%;
+    background-color: var(--module-background);
+    padding: 30 60;
+}
+
+.personalInputs {
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+}

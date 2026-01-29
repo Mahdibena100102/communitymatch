@@ -8,10 +8,9 @@
     gap: 20px;
 }
 
-.uploadID {
-    border: 1 solid black
-}
+/* .uploadID {
+} */
 
 .profileCreation {
-    border: 1 solid black
+    width: 60%;
 }

@@ -1,0 +1,17 @@
+.cardWrapper {
+    display: flex;
+    align-items: center;
+    background-color: var(--module-background);
+    justify-content: space-between;
+    padding: 1% 4%;
+
+}
+
+.cardHeader {
+    font-size: medium;
+    font-weight: 500;
+}
+
+.buttonWrapper {
+    width: 20%;
+}
