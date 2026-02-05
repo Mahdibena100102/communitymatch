@@ -11,11 +11,23 @@ import GenderInput from "../InputFields/GenderInput"
 import EmailInput from "../InputFields/EmailInput"
 import PasswordInput from "../InputFields/PasswordInput"
 import PhoneNumberInput from "../InputFields/PhoneNumberInput"
+import MosqueSelection from "../InputFields/MosqueSelection"
 import { useRouter } from "next/navigation"
 
 
 
 const RegisterForm = () => {
+    type Mosque = {
+        id: number
+        name: string
+    }
+    
+    const initialMosques: Mosque[] = [  
+        { id: 1, name: "East London Mosque" },
+        { id: 2, name: "Regent's Park Mosque" },
+        { id: 3, name: "Finsbury Park Mosque" },
+    ]
+
     const [firstName, setFirstName] = useState("")
     const [surname, setSurname] = useState("")
     const [dateOfBirth, setDateOfBirth] = useState("")
@@ -24,6 +36,9 @@ const RegisterForm = () => {
     const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
     const [phoneNumber, setPhoneNumber] = useState<string | undefined>(undefined);
+    const [selectedMosque, setSelectedMosque] = useState("")
+    const [MosquesArray, setMosquesArray] = useState<Mosque[]>(initialMosques)
+
     const router = useRouter()
 
 
@@ -52,6 +67,10 @@ const RegisterForm = () => {
         <div className={styles.formRow}>
             <PhoneNumberInput value={phoneNumber} onChange={setPhoneNumber}/>
             <PasswordInput value={confirmPassword} name="Confirm Password" onChange={setConfirmPassword}/>
+        </div>
+
+        <div className={styles.formRow}>
+            <MosqueSelection mosques={MosquesArray} value={selectedMosque} onChange={setSelectedMosque}/>
         </div>
 
         <div className={styles.btnContainer}>
