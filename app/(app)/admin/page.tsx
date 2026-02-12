@@ -1,8 +1,9 @@
 import React from 'react'
+import { redirect } from 'next/navigation'
 
 const AdminPage = () => {
   return (
-    <h1>AdminPage</h1>
+    redirect("/admin/dashboard")
   )
 }
 

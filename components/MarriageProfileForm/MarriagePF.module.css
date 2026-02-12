@@ -1,5 +1,5 @@
 .formWrapper {
-    margin-top: 30;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +17,7 @@
 }
 
 .sectionHeader{
-    margin: 0 0 20 0;
+    margin: 0 0 20px 0;
 }
 
 .guardianWrapper {
@@ -27,7 +27,7 @@
     gap: 16px;
     width: 50%;
     background-color: var(--module-background);
-    padding: 30 60;
+    padding: 30px 60px;
 }
 
 .guardianInputs{
@@ -44,7 +44,7 @@
     gap: 16px;
     width: 50%;
     background-color: var(--module-background);
-    padding: 30 60;
+    padding: 30px 60px;
 }
 
 .personalInputs {

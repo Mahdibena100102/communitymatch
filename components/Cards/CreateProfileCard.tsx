@@ -7,7 +7,7 @@ const CreateProfileCard = () => {
     <div className={styles.cardWrapper}>
         <h3 className={styles.cardHeader}>Create Marriage Profile</h3>
         <div className={styles.buttonWrapper}>
-         <RedirectBtn targetUrl='/dashboard/profile' buttonText='Click Here'/>
+         <RedirectBtn targetUrl='/user/profile' buttonText='Click Here'/>
         </div>
     </div>
   )

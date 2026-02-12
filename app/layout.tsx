@@ -1,3 +1,4 @@
+// @ts-ignore: allow side-effect CSS import without type declarations
 import "./globals.css";
 
 export default function RootLayout({children}: {children: React.ReactNode;}) {

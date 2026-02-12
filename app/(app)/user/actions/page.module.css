@@ -1,0 +1,16 @@
+.pageWrapper {
+    padding-top: 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* .uploadID {
+} */
+
+.profileCreation {
+    width: 60%;
+}

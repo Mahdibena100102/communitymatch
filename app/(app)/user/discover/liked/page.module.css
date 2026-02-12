@@ -1,0 +1,43 @@
+.pageWrapper {
+    border: 1px black solid;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardWrapper{
+    background-color: var(--module-background);
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    gap: 16px;
+    padding: 35px 0;
+    overflow: scroll;
+}
+
+.cardWrapperEmpty{
+    background-color: var(--module-background);
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.profileWrapper{
+    background-color: var(--background-colour-grey);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+.delete{
+    height: 50%;
+    padding: 0 15px;
+    margin: 0;
+}

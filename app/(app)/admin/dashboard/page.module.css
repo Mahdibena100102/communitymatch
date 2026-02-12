@@ -1,0 +1,7 @@
+.pageWrapper {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: start;
+    margin-top: 10%;
+}

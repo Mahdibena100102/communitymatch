@@ -3,8 +3,7 @@
     align-items: center;
     background-color: var(--module-background);
     justify-content: space-between;
-    padding: 1% 4%;
-
+    padding: 10px 40px;
 }
 
 .cardHeader {
@@ -14,4 +13,12 @@
 
 .buttonWrapper {
     width: 20%;
+}
+
+.adminDashboardCardsWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    width: 60%;
 }
