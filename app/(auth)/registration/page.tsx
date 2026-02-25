@@ -1,4 +1,4 @@
-import RegisterForm from '@/components/RegisterForm/page'
+import RegisterForm from '@/components/registerform/page'
 import React from 'react'
 import styles from "./page.module.css";
 

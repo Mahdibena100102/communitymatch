@@ -15,7 +15,7 @@
     width: 20%;
 }
 
-.adminDashboardCardsWrapper{
+.adminDashboardCardsWrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-around;

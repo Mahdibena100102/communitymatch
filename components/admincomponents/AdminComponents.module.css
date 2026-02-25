@@ -1,4 +1,6 @@
-.pageWrapper {
+
+
+.adminListPageWrapper {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -6,7 +8,7 @@
     flex-direction: column;
 }
 
-.cardWrapper{
+.adminListCardWrapper {
     background-color: var(--module-background);
     height: 80%;
     display: flex;
@@ -14,11 +16,11 @@
     flex-direction: column;
     width: 70%;
     gap: 16px;
-    padding: 35px 0;
+    padding: 20px 0;
     overflow: scroll;
 }
 
-.cardWrapperEmpty{
+.adminListCardWrapperEmpty {
     background-color: var(--module-background);
     height: 80%;
     display: flex;
@@ -28,15 +30,27 @@
     width: 70%;
 }
 
-.profileWrapper{
-    background-color: var(--background-colour-grey);
+.infoCardWrapper{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-colour-lightgrey);
+    width: 90%;
+    padding: 10px 30px;
+}
+
+.infoTopBarWrapper{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 90%;
+    padding: 0 30px;
 }
-.delete{
-    height: 50%;
-    padding: 0 15px;
-    margin: 0;
+
+.divStyling{
+    width: 100%;
+}
+
+.emptyPadding{
+    padding: 10px 24px;
 }

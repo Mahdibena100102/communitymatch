@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react'
 import styles from "./page.module.css"
-import SelectFile from '@/components/UploadFileCard/SelectFile'
-import CreateProfileCard from '@/components/Cards/CreateProfileCard'
+import SelectFile from '@/components/uploadfilecard/SelectFile'
+import CreateProfileCard from '@/components/cards/CreateProfileCard'
 
 const ActionPage = () => {
   const [file, setFile] = useState<File | null>(null)

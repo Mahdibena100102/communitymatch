@@ -1,4 +1,4 @@
-import AdminDashboardCards from '@/components/Cards/AdminDashboardCards'
+import AdminDashboardCards from '@/components/cards/AdminDashboardCards'
 import React from 'react'
 import styles from "./page.module.css"
 

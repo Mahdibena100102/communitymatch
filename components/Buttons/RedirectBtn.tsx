@@ -7,12 +7,14 @@ type ButtonProps = {
     targetUrl: string
     buttonText: string
     align?: "center" | "left"
+    variant?: "button" | "adminSideButton" | "adminButton"
+    onClick?: () => void 
 }
 
-const RedirectBtn = ({targetUrl, align = "center", buttonText}: ButtonProps) => {
+const RedirectBtn = ({targetUrl, align = "center", buttonText, variant = "button", onClick}: ButtonProps) => {
   return (
       <Link href={targetUrl}>
-        <button className={`${styles.button} ${align ==="left" ? styles.left:""}`}>{buttonText}</button>
+        <button className={`${styles[variant]} ${align ==="left" ? styles.left:""}`} onClick={onClick}>{buttonText}</button>
       </Link>
   )
 }

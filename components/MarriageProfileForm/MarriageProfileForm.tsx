@@ -8,7 +8,7 @@ import EthnicityInput from '../InputFields/EthnicityInput'
 import EducationInput from '../InputFields/EducationInput'
 import LivingArrangementsInput from '../InputFields/LivingArrangementsInput'
 import TextAreaInput from '../InputFields/TextAreaInput'
-import SubmitBtn from '../Buttons/SubmitBtn'
+import SubmitBtn from '../buttons/SubmitBtn'
 import EmailInput from '../InputFields/EmailInput'
 import PhoneNumberInput from '../InputFields/PhoneNumberInput'
 

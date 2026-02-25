@@ -22,6 +22,17 @@
     box-shadow: 0 0 10px #535353;
 }
 
+.adminSideBar {
+    width: 240px;
+    height: 100vh;
+    background: var(--admin-navbar-background-colour);
+    color: white;
+    padding: 15px;
+    flex-shrink: 0;
+    box-shadow: 0 0 10px #535353;
+}
+
+
 .nav {
     display: flex;
     flex-direction: column;

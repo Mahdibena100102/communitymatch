@@ -1,9 +1,9 @@
 import styles from "./page.module.css";
 
-import LoginForm from "@/components/LoginForm/LoginForm";
+import LoginForm from "@/components/loginForm/LoginForm";
 import Link from 'next/link'
 import React from 'react'
-import RedirectBtn from "@/components/Buttons/RedirectBtn";
+import RedirectBtn from "@/components/buttons/RedirectBtn";
 
 const LoginPage = () => {
   return (

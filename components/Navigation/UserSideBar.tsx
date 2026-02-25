@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./Navigations.module.css"
 import Link from 'next/link'
-import RedirectBtn from '../Buttons/RedirectBtn'
+import RedirectBtn from '../buttons/RedirectBtn'
 
 const UserSideBar = () => {
   return (

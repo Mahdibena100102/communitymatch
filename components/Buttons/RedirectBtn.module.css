@@ -8,3 +8,17 @@
 .left {
     text-align: left;
 }
+
+.adminSideButton {
+    background-color: var(--admin-navbar-background-colour-selected);
+    width: 100%;
+    padding: 10px;
+    border: 0px;
+}
+
+.adminButton {
+    background-color: var(--highlights-gold);
+    width: 100%;
+    padding: 10px;
+    border: 0px;
+}

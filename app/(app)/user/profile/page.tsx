@@ -1,4 +1,4 @@
-import MarriageProfileForm from '@/components/MarriageProfileForm/MarriageProfileForm'
+import MarriageProfileForm from '@/components/marriageprofileform/MarriageProfileForm'
 import React from 'react'
 
 const ProfilePage = () => {

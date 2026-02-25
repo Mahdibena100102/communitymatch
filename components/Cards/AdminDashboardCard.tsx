@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Cards.module.css"
-import RedirectBtn from '../Buttons/RedirectBtn'
+import RedirectBtn from '../buttons/RedirectBtn'
 
 type AdminDashBoardCardProps = {
     heading: string
@@ -12,7 +12,7 @@ const AdminDashBoardCard = ({heading, arrayLength, route}: AdminDashBoardCardPro
   return (
     <div className={styles.cardWrapper}>
         <div><h3>{heading} : {arrayLength}</h3></div>
-        <RedirectBtn targetUrl={route} buttonText='View'/>
+        <RedirectBtn targetUrl={route} buttonText='View' variant='adminButton'/>
     </div>
   )
 }

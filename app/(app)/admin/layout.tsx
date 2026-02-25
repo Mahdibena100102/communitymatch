@@ -1,6 +1,6 @@
-import NavBar from "@/components/Navigation/NavBar";
+import NavBar from "@/components/navigation/NavBar";
 import styles from "./Layout.module.css"
-import AdminSideBar from "@/components/Navigation/AdminSideBar";
+import AdminSideBar from "@/components/navigation/AdminSideBar";
 
 export default function AppLayout({children}: {children: React.ReactNode;}) {
   return (

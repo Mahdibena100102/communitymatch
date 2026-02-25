@@ -1,5 +1,5 @@
-import NavBar from "@/components/Navigation/NavBar";
-import UserSideBar from "@/components/Navigation/UserSideBar";
+import NavBar from "@/components/navigation/NavBar";
+import UserSideBar from "@/components/navigation/UserSideBar";
 import styles from "./Layout.module.css"
 
 export default function AppLayout({children}: {children: React.ReactNode;}) {
