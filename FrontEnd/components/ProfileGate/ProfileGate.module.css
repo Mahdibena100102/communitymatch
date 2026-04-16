@@ -1,0 +1,47 @@
+.gateWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 2rem;
+}
+
+.gateCard {
+    max-width: 480px;
+    width: 100%;
+    background-color: var(--module-background);
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.gateCard h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.gateCard p {
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.gateBtn {
+    align-self: center;
+    padding: 10px 1.5rem;
+    background-color: var(--highlights-gold);
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-family: inherit;
+}
+
+.gateBtn:hover {
+    opacity: 0.85;
+}

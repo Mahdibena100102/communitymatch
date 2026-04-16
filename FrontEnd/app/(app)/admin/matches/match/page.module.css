@@ -1,0 +1,28 @@
+.pageWrapper {
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.pageTitle {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    width: 100%;
+    max-width: 720px;
+}
+
+.actionBar {
+    width: 100%;
+    max-width: 720px;
+}
+
+.resolveBtn {
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    background-color: var(--highlights-gold);
+}

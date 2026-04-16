@@ -1,0 +1,63 @@
+.NavBar {
+    display: flex;
+    gap: 12px;
+    padding: 12px
+}
+
+.sideBarHeading {
+    color: black;
+    font-weight: 100;
+    font-size: medium;
+    margin-bottom: 40px;
+    margin-top: 2;
+}
+
+.sideBar {
+    width: 240px;
+    height: 100vh;
+    background: var(--module-background);
+    color: white;
+    padding: 15px;
+    flex-shrink: 0;
+    box-shadow: 0 0 10px #535353;
+    position: relative;
+}
+
+.adminSideBar {
+    width: 240px;
+    height: 100vh;
+    background: var(--admin-navbar-background-colour);
+    color: white;
+    padding: 15px;
+    flex-shrink: 0;
+    box-shadow: 0 0 10px #535353;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.disabledNavBtn {
+    background-color: var(--background-colour-grey);
+    width: 100%;
+    padding: 10px;
+    border: 0px;
+    text-align: left;
+    opacity: 0.4;
+    cursor: default;
+}
+
+.logoutBtn {
+    position: absolute;
+    bottom: 20px;
+    width: calc(100% - 30px);
+    padding: 10px;
+    border: 0px;
+    background-color: #b94a48;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+}

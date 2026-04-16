@@ -1,0 +1,79 @@
+.pageWrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.profileHeader {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profileHeader h2 {
+    margin: 0;
+}
+
+.editBtn {
+    background-color: var(--highlights-gold);
+    padding: 8px 24px;
+    border: 0;
+    cursor: pointer;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 50%;
+    background-color: var(--module-background);
+    padding: 30px 60px;
+}
+
+.sectionHeader {
+    margin: 0 0 4px 0;
+}
+
+.row {
+    display: flex;
+    gap: 20%;
+}
+
+.row p {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 0;
+}
+
+.rowFull {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.rowFull p {
+    margin: 0;
+}
+
+.label {
+    font-size: 0.75rem;
+    color: #888;
+}
+
+.cancelBar {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 0;
+}
+
+.cancelBtn {
+    background-color: var(--background-colour-grey);
+    padding: 8px 24px;
+    border: 0;
+    cursor: pointer;
+}

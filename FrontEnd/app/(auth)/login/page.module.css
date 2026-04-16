@@ -1,0 +1,64 @@
+.pageWrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginPage {
+    display: flex;
+    width: clamp(200px, 90%, 400px);
+    margin: clamp(5px, 3%, 30px);
+    border-radius: 8px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.textSegment {
+    background-color: var(--background-colour-grey);
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.loginFormContainer {
+    background-color: var(--module-background);
+    width: 100%;
+    padding: 2rem;
+}
+
+.loginFormHeader {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0 1.5rem 0;
+}
+
+.btnContainer {
+    padding-top: 10px;
+    font-size: 0.875rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+@media (min-width: 630px) {
+    .loginPage {
+        width: clamp(400px, 90%, 750px);
+        flex-wrap: nowrap;
+    }
+
+    .textSegment {
+        width: 45%;
+        padding: 4rem 2rem;
+    }
+
+    .loginFormContainer {
+        width: 55%;
+        padding: 4rem 2.5rem;
+    }
+}

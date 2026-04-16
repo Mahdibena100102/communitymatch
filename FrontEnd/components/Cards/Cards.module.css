@@ -1,0 +1,26 @@
+.cardWrapper {
+    display: flex;
+    align-items: center;
+    background-color: var(--module-background);
+    justify-content: space-between;
+    padding: 16px 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.cardHeader {
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.buttonWrapper {
+    flex-shrink: 0;
+}
+
+.adminDashboardCardsWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 720px;
+}

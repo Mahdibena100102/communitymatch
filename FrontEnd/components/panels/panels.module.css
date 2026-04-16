@@ -1,0 +1,125 @@
+.userPanelWrapper {
+    background-color: var(--module-background);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    gap: 16px;
+    width: 100%;
+}
+
+.scrollable {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.userPanelRow {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.userPanelRow p {
+    width: calc(50% - 8px);
+    margin: 0;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.userPanelRowFull {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+}
+
+.userPanelRowFull p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.label {
+    font-size: 0.72rem;
+    color: #888;
+}
+
+.decisionButtonWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.buttonStyles {
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    background-color: var(--background-colour-grey);
+}
+
+.buttonStylesApprove {
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    background-color: var(--highlights-gold);
+}
+
+.reportPanelWrapper {
+    background-color: var(--module-background);
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 0.9rem;
+    width: 100%;
+    max-width: 720px;
+}
+
+.reportPanelWrapper p {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.reportPanelWrapper div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.reportReason {
+    white-space: pre-wrap;
+}
+
+.MatchPanelWrapper {
+    background-color: var(--module-background);
+    display: flex;
+    width: 100%;
+    max-width: 720px;
+    justify-content: space-between;
+    padding: 30px 40px;
+    gap: 40px;
+}
+
+.matchBrotherDetailsCard {
+    width: 50%;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.matchSisterDetailsCard {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 0.9rem;
+    gap: 8px;
+}

@@ -1,0 +1,28 @@
+.button {
+    background-color: var(--background-colour-grey);
+    width: 100%;
+    padding: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.left {
+    text-align: left;
+}
+
+.adminSideButton {
+    background-color: var(--admin-navbar-background-colour-selected);
+    width: 100%;
+    padding: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.adminButton {
+    background-color: var(--highlights-gold);
+    padding: 6px 18px;
+    border: 0px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    white-space: nowrap;
+}

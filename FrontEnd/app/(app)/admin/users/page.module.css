@@ -1,0 +1,151 @@
+.pageWrapper {
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.pageTitle {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    width: 100%;
+    max-width: 860px;
+}
+
+/* ── Filter bar ── */
+
+.filterBar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 860px;
+}
+
+.searchInput {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    font-size: 0.875rem;
+    height: 32px;
+    flex: 1;
+    min-width: 180px;
+}
+
+.filterSelect {
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    font-size: 0.875rem;
+    height: 32px;
+    background-color: white;
+}
+
+.clearBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: #666;
+    text-decoration: underline;
+}
+
+.count {
+    margin-left: auto;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+/* ── Table ── */
+
+.tableWrapper {
+    background-color: var(--module-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 860px;
+    gap: 12px;
+    padding: 24px;
+    overflow-y: auto;
+    max-height: calc(100vh - 160px);
+}
+
+.tableWrapperEmpty {
+    background-color: var(--module-background);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 860px;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.tableHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 4px 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #888;
+}
+
+.tableHeader span {
+    flex: 1;
+}
+
+.tableHeader span:last-child {
+    flex: 0 0 60px;
+}
+
+.tableRow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F3F3F3;
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 0.875rem;
+}
+
+.cell {
+    flex: 1;
+}
+
+/* ── Badges ── */
+
+.badgePending {
+    display: inline-block;
+    padding: 2px 8px;
+    background-color: var(--background-colour-grey);
+    font-size: 0.75rem;
+    color: #555;
+}
+
+.badgeApproved {
+    display: inline-block;
+    padding: 2px 8px;
+    background-color: #d4edda;
+    font-size: 0.75rem;
+    color: #3a6b45;
+}
+
+/* ── View button ── */
+
+.viewBtn {
+    flex: 0 0 60px;
+    padding: 4px 0;
+    background-color: var(--highlights-gold);
+    font-size: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}

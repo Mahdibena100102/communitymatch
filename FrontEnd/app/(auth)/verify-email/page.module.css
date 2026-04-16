@@ -1,0 +1,17 @@
+.pageWrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: clamp(200px, 90%, 400px);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #535353;
+    background-color: var(--module-background);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

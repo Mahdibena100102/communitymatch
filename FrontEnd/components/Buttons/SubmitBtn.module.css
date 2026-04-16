@@ -1,0 +1,5 @@
+.button {
+    background-color: var(--highlights-gold);
+    width: 100%;
+    padding: 10px;
+}

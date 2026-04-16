@@ -1,0 +1,61 @@
+.adminListPageWrapper {
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.adminListCardWrapper {
+    background-color: var(--module-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 720px;
+    gap: 12px;
+    padding: 24px;
+    overflow-y: auto;
+    max-height: calc(100vh - 120px);
+}
+
+.adminListCardWrapperEmpty {
+    background-color: var(--module-background);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 720px;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.infoCardWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F3F3F3;
+    width: 100%;
+    padding: 12px 20px;
+}
+
+.infoTopBarWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 4px 20px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.divStyling {
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+.emptyPadding {
+    padding: 6px 18px;
+    visibility: hidden;
+}

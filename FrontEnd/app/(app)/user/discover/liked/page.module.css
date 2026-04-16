@@ -1,0 +1,73 @@
+.pageWrapper {
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.pageTitle {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    width: 100%;
+    max-width: 720px;
+}
+
+.cardWrapper {
+    background-color: var(--module-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 720px;
+    gap: 12px;
+    padding: 24px;
+    overflow-y: auto;
+    max-height: calc(100vh - 120px);
+}
+
+.cardWrapperEmpty {
+    background-color: var(--module-background);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 720px;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.profileWrapper {
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 12px 20px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 0.9rem;
+    flex: 1;
+}
+
+.label {
+    font-size: 0.72rem;
+    color: #888;
+}
+
+.removeBtn {
+    padding: 5px 14px;
+    border: 0;
+    background-color: var(--highlights-gold);
+    cursor: pointer;
+    font-size: 0.8rem;
+    flex-shrink: 0;
+}
