@@ -1,12 +1,12 @@
 "use client"
 
 import ReportPanel from '@/components/panels/ReportPanel'
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, Suspense } from 'react'
 import styles from "./page.module.css"
 import { useSearchParams, useRouter } from 'next/navigation'
 import { apiRequest } from '@/lib/api'
 
-const ReportPage = () => {
+const ReportPageInner = () => {
   const searchParams = useSearchParams()
   const router = useRouter()
   const reportId = searchParams.get("reportId")
@@ -87,4 +87,10 @@ const ReportPage = () => {
   )
 }
 
-export default ReportPage
+export default function ReportPage() {
+  return (
+    <Suspense>
+      <ReportPageInner />
+    </Suspense>
+  )
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import RedirectBtn from '../buttons/RedirectBtn'
+import RedirectBtn from '../Buttons/RedirectBtn'
 import styles from "./AdminComponents.module.css"
 
 type InfoDisplayCardProps = {

@@ -1,5 +1,5 @@
 import React from 'react'
-import RedirectBtn from '../buttons/RedirectBtn'
+import RedirectBtn from '../Buttons/RedirectBtn'
 import styles from "./Cards.module.css"
 
 const CreateProfileCard = () => {

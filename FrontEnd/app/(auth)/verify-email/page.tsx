@@ -17,7 +17,7 @@ const VerifyEmailPage = async ({ searchParams }: { searchParams: Promise<{ token
 
     let success = false
     try {
-        const res = await fetch(`http://localhost:8000/user/verify/${token}`)
+        const res = await fetch(`https://api-community-match.benahome.net/user/verify/${token}`)
         success = res.ok
     } catch {
         success = false

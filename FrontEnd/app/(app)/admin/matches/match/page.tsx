@@ -1,12 +1,12 @@
 "use client"
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, Suspense } from 'react'
 import styles from "./page.module.css"
 import MatchDetailPanel from '@/components/panels/MatchDetailPanel'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { apiRequest } from '@/lib/api'
 
-const Match = () => {
+const MatchInner = () => {
   const searchParams = useSearchParams()
   const router = useRouter()
   const matchId = searchParams.get("matchId")
@@ -71,4 +71,10 @@ const Match = () => {
   )
 }
 
-export default Match
+export default function Match() {
+  return (
+    <Suspense>
+      <MatchInner />
+    </Suspense>
+  )
+}

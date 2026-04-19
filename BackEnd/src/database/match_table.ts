@@ -25,6 +25,21 @@ async function getAllMatches(): Promise<any> {
     return rows;
 }
 
+// Get all unresolved matches by mosque
+async function getAllMatchesByMosque(mosque_id: number): Promise<any> {
+    const query = `
+        SELECT matches.*
+        FROM matches
+        JOIN user male   ON male.id   = matches.male_id
+        JOIN user female ON female.id = matches.female_id
+        WHERE matches.resolved = false
+          AND male.mosque_id   = ?
+          AND female.mosque_id = ?
+    `;
+    const [rows]: any = await pool.query(query, [mosque_id, mosque_id]);
+    return rows;
+}
+
 // Mark match as resolved
 async function resolveMatch(id: number): Promise<any> {
     const query = `UPDATE matches SET resolved = true WHERE id = ?`;
@@ -36,5 +51,6 @@ export {
     createMatchEntry,
     getMatchesByUser,
     getAllMatches,
+    getAllMatchesByMosque,
     resolveMatch,
 };

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Cards.module.css"
-import RedirectBtn from '../buttons/RedirectBtn'
+import RedirectBtn from '../Buttons/RedirectBtn'
 
 type AdminDashBoardCardProps = {
     heading: string

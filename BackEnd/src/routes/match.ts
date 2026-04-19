@@ -1,4 +1,5 @@
 import express, { Request, Response } from 'express';
+import { isAuth, AuthRequest } from '../util/authentication';
 import { match_table } from '../database/db_index';
 
 const router = express.Router();
@@ -26,6 +27,17 @@ router.get('/all', async (req: Request, res: Response) => {
         res.status(500).json({ error: err.message });
     }
 });
+
+// Get all matches from a mosque
+router.get('/mosque', isAuth, async (req: AuthRequest, res: Response) => {
+    try {
+        const mosque_id = req.user!.mosque_id;
+        const matches = await match_table.getAllMatchesByMosque(mosque_id);
+        res.json(matches);
+    } catch (err: any) {
+        res.status(500).json({ error: err.message });
+    }
+})
 
 // Get matches for a user
 router.get('/:id', async (req: Request, res: Response) => {

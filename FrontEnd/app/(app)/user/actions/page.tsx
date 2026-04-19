@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import styles from "./page.module.css"
-import CreateProfileCard from '@/components/cards/CreateProfileCard'
+import CreateProfileCard from '@/components/Cards/CreateProfileCard'
 
 const ActionPage = () => {
 

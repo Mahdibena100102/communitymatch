@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8000"
+const API_URL = "https://api-community-match.benahome.net"
 
 async function apiRequest(path: string, options: RequestInit = {}) {
     const response = await fetch(`${API_URL}${path}`, {

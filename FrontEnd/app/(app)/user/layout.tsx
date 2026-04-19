@@ -1,4 +1,4 @@
-import UserSideBar from "@/components/navigation/UserSideBar";
+import UserSideBar from "@/components/Navigation/UserSideBar";
 import ProfileGate from "@/components/ProfileGate/ProfileGate";
 import styles from "./Layout.module.css"
 

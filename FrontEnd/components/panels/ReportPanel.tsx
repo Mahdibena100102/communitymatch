@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import RedirectBtn from '../buttons/RedirectBtn'
+import RedirectBtn from '../Buttons/RedirectBtn'
 import styles from "./panels.module.css"
 
 type ReportPanelProps = {

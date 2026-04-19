@@ -2,7 +2,7 @@
 
 import React from 'react'
 import styles from "./Navigations.module.css"
-import RedirectBtn from '../buttons/RedirectBtn'
+import RedirectBtn from '../Buttons/RedirectBtn'
 import { useRouter } from 'next/navigation'
 import { apiRequest } from '@/lib/api'
 import { clearUser } from '@/lib/auth'

@@ -4,7 +4,7 @@ import styles from "./LoginForm.module.css"
 
 import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
-import SubmitBtn from '../buttons/SubmitBtn'
+import SubmitBtn from '../Buttons/SubmitBtn'
 import EmailInput from "../InputFields/EmailInput"
 import PasswordInput from "../InputFields/PasswordInput"
 import { apiRequest } from "@/lib/api"

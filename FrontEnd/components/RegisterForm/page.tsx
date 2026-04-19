@@ -1,7 +1,7 @@
 "use client"
 
 import styles from "./RegisterForm.module.css"
-import SubmitBtn from '../buttons/SubmitBtn'
+import SubmitBtn from '../Buttons/SubmitBtn'
 
 import React, { useState, useEffect } from 'react'
 import TextInput from '../InputFields/TextInput'

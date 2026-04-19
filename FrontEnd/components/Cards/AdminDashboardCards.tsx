@@ -15,7 +15,7 @@ const AdminDashboardCards = () => {
       try {
         const [pendingRes, matchesRes, reportsRes] = await Promise.all([
           apiRequest("/user/pending"),
-          apiRequest("/match/all"),
+          apiRequest("/match/mosque"),
           apiRequest("/report")
         ])
         const pending = pendingRes.ok ? await pendingRes.json() : []

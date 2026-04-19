@@ -1,13 +1,13 @@
 "use client"
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, Suspense } from 'react'
 import styles from "./page.module.css"
 import DisplayUserPanel from '@/components/panels/DisplayUserPanel'
 import { useSearchParams, useRouter } from 'next/navigation'
 import ApplicantDecisionButtons from "@/components/panels/ApplicantDecisionButtons"
 import { apiRequest } from '@/lib/api'
 
-const ApplicantDetails = () => {
+const ApplicantDetailsInner = () => {
   const searchParams = useSearchParams()
   const router = useRouter()
   const userCode = searchParams.get("userCode")
@@ -74,5 +74,11 @@ const ApplicantDetails = () => {
   )
 }
 
-export default ApplicantDetails
+export default function ApplicantDetails() {
+  return (
+    <Suspense>
+      <ApplicantDetailsInner />
+    </Suspense>
+  )
+}
 

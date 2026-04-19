@@ -15,7 +15,7 @@ const Matches = () => {
     useEffect(() => {
         const fetchMatches = async () => {
             try {
-                const res = await apiRequest("/match/all")
+                const res = await apiRequest("/match/mosque")
                 const data = res.ok ? await res.json() : []
                 setMatches(Array.isArray(data) ? data : [])
 
